@@ -62,7 +62,7 @@ git push origin master
 git push
 ```
 * 可以将 master 换其他分支，默认master
-* 输入 Github 帐号密码即可
+* 第一次输入 Github 帐号密码即可
 
 
 
