@@ -64,6 +64,12 @@ git push
 * 可以将 master 换其他分支，默认master
 * 第一次输入 Github 帐号密码即可
 
+####更新与合并
+```
+git pull
+```
+* 当 Github 上的内容有所更新的时候，先 pull 更新合并
+* 再提交你所修改的内容 
 
 
 
