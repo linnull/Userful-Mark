@@ -19,7 +19,7 @@ brew install git
 ssh-keygen -t rsa -C "your_email@your_email.com"
 ```
 * 在主目录下执行这条命令
-* "your_email@your_email.com" 为你自己的 Github 邮箱
+* `your_email@your_email.com` 为你自己的 Github 邮箱
 * 我这里是一路回车，在 .ssh 目录下生成 id_rsa.pub ，里面的 key 就是我们需要的。
 * 复制到 Github 设置 SSH and GPG keys 选项下，设置ssh-key
 
@@ -36,15 +36,15 @@ ssh -T git@github.com
 git config --global user.name "your name"
 git config --global user.email "your_email@your_email.com"
 ```
-* "your name" 为自己的用户名
-* "your_email@your_email.com" 为自己的邮箱
+* `your name` 为自己的用户名
+* `your_email@your_email.com` 为自己的邮箱
 
 ####添加远程仓库
 ```
 git remote add origin git@github.com:your_name/your_repo.git
 ```
-* your_name 为Github名字
-* your_repo 为Github仓库
+* `your_name` 为Github名字
+* `your_repo` 为Github仓库
 
 ###3、工作流程
 ####添加修改文件到缓存区
@@ -59,6 +59,7 @@ git commit -m "xxx"
 ####推送修改文件到Github
 ```
 git push origin master
+git push
 ```
 * 可以将 master 换其他分支，默认master
 * 输入 Github 帐号密码即可
